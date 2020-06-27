@@ -37,14 +37,14 @@
 </head>
 <body>
 <dic id="app">
-    <g-button icon="settings" icon-position="left">
+    <g-button icon="settings" icon-position="left" :loading="loading1" @click="loading1=!loading1">
         按钮
     </g-button>
     <g-button icon-position="right" icon="settings">
         按钮
     </g-button>
 
-    <g-button icon-position="left" icon="settings">
+    <g-button icon-position="right" icon="settings" :loading="true ">
         按钮
     </g-button>
     <g-icon name="download"></g-icon>
@@ -52,7 +52,7 @@
 </body>
 <script src="src/index.js"></script>
 
-<script src="//at.alicdn.com/t/font_1317569_k44s5bbjf1.js">
+<script src="//at.alicdn.com/t/font_1317569_xy5lqkvhp3.js">
 
 </script>
 </html>
