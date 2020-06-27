@@ -12,3 +12,18 @@
 ```css
  {font-size: 1em;}
 ```
+
+##  元素边框重叠
+```scss
+
+{
+ border-left: -1px;
+}
+&:hover{
+ position: relative;
+z-index: 1;
+
+}
+ 
+```
+ > hover 时看到所有边框
