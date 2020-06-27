@@ -24,8 +24,10 @@
 
         > .g-button {
             border-radius: 0px;
-            border-left: -1px;
 
+            &:not(:first-child) {
+                border-left: -1px;
+            }
 
             &:first-child {
                 border-top-left-radius: var(--border-radius);
