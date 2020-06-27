@@ -13,8 +13,20 @@
 <script>
     export default {
         name: 'button',
-        props: ["icon", "iconPosition"]
+        props: {
+            iconPosition: {
+                default: 'left',
+                type: String,
+                validator: function (value) {
+                    if (value !== 'left' && value !== 'right') return false
+                    return true
+                }
+            },
+            icon: {}
+        }
     }
+
+
 </script>
 
 <style scoped lang="scss">
