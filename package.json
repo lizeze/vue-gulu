@@ -29,6 +29,7 @@
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.1.2",
     "chai": "^4.2.0",
+    "git": "^0.1.5",
     "karma": "^5.1.0",
     "karma-chai": "^0.1.0",
     "karma-chai-spies": "^0.1.4",
@@ -36,6 +37,7 @@
     "karma-mocha": "^2.0.1",
     "karma-sinon-chai": "^2.0.2",
     "mocha": "^8.0.1",
+    "open": "^7.0.4",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.9",
     "sinon": "^9.0.2",
