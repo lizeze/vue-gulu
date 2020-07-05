@@ -37,21 +37,25 @@
 </head>
 <body>
 <dic id="app">
-    <g-button icon="settings" icon-position="left" :loading="loading1" @click="loading1=!loading1">
-        按钮
-    </g-button>
-    <g-button icon-position="right" icon="settings">
-        按钮
-    </g-button>
+    <g-input></g-input>
 
-    <g-button icon-position="right" icon="settings" :loading="true ">
-        按钮
-    </g-button>
-    <g-button-group>
-        <g-button icon="left">向前</g-button>
-        <g-button>更多</g-button>
-        <g-button icon="right" icon-position="right">向后</g-button>
-    </g-button-group>
+    <div>
+        <g-button icon="settings" icon-position="left" :loading="loading1" @click="loading1=!loading1">
+            按钮
+        </g-button>
+        <g-button icon-position="right" icon="settings">
+            按钮
+        </g-button>
+
+        <g-button icon-position="right" icon="settings" :loading="true ">
+            按钮
+        </g-button>
+        <g-button-group>
+            <g-button icon="left">向前</g-button>
+            <g-button>更多</g-button>
+            <g-button icon="right" icon-position="right">向后</g-button>
+        </g-button-group>
+    </div>
 </dic>
 
 <div id="test"></div>
